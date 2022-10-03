@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #BEBEBE;
+    overflow-x: hidden;
+}
+.navbar{
+    padding: 35px 38px;
+    float: right;
+}
+.navbar ul a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: inter;
+    color: #01003F;
+    margin: 10px;
+}
+.navbar ul a:hover{
+    text-decoration: underline;
+}
+.banner{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    border: 0.8px solid #000;
+    background-image: url(../asset/Banner.png);
+    color: #fff;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.banner::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(1, 0, 31, 0.55);;
+}
+.text{
+    margin: 50px;
+    z-index: 1;
+    font-family: inter;
+}
+.text p{
+    font-family: Montserrat;
+}
+.button{
+    
+}
+.button a{
+    position: absolute;
+    padding: 15px 50px;
+    margin: -150px 50px;
+    z-index: 10;
+    border-radius: 30px;
+    background-color: #fff;
+    transition: .2s;
+    color: #000;
+    text-decoration: none;
+    font-family: inter;
+}
+.button a:hover{
+    background-color: #01003F;
+    color: #fff;
+}
