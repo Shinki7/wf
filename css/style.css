@@ -9,15 +9,49 @@ body{
     background: #BEBEBE;
     overflow-x: hidden;
 }
+.social{
+    padding: 5px 0;
+    background-color: #333237;
+}
+.social a{
+    font-family: 'Public Sans';
+    display: inline-block;
+    color: #ffff;
+    margin-right: 10px;
+    transition: 0.2s;
+}
+.social a:hover{
+    color: #01003F;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.container:after{
+    content:'';
+    display: block;
+    clear: both;
+}
+header{
+    align-items: center;
+    justify-content: center;
+}
+header img{
+    width: 5%;
+    height: 4%;
+    float: left;
+    margin: 20px 45px;
+}
 .navbar{
-    padding: 35px 38px;
     float: right;
+    padding: 40px 38px;
+    margin: 15px 0px;
 }
 .navbar ul a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     font-family: inter;
-    color: #01003F;
+    color: #000;
     margin: 10px;
 }
 .navbar ul a:hover{
@@ -52,13 +86,10 @@ body{
 .text p{
     font-family: Montserrat;
 }
-.button{
-    
-}
 .button a{
     position: absolute;
     padding: 15px 50px;
-    margin: -150px 50px;
+    margin: -210px 50px;
     z-index: 10;
     border-radius: 30px;
     background-color: #fff;
@@ -70,4 +101,20 @@ body{
 .button a:hover{
     background-color: #01003F;
     color: #fff;
+}
+.abt{
+    position: relative;
+    margin: 80px 50px;    
+    justify-content: center;
+    align-items: center;
+}
+.abt h2{
+    text-align: center;
+    margin: 3px 5px;
+    font-family: inter;
+}
+.abt p{
+    margin: 20px 0px;
+    text-align: center;
+    font-family: montserrat;
 }
