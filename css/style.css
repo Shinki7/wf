@@ -181,16 +181,22 @@ footer {
 	.container {
 		width:90%;
 	}
+    header{
+        align-items: center;
+    }
 	header img {
-        position: relative;
-		justify-content: center;
+        margin-left: 150px;
 		float: none;
-        height: 10%;
-        width: 10%;
+        height: 20%;
+        width: 20%;
 	}
 	.navbar ul{
+        margin-top:-51px;
+        margin-bottom: -90px;
+        margin-right: 45px;
 		justify-content: center;
 		float: none;
+        padding: 10px 1px;
 	}
 	.box .col-4 {
 		width:100%;
