@@ -189,8 +189,6 @@ footer {
         width: 10%;
 	}
 	.navbar ul{
-        justify-items: center;
-        align-items: center;
 		justify-content: center;
 		float: none;
 	}
