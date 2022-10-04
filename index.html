@@ -21,7 +21,7 @@
             background-color: #01003F;
         }
     </style>
-    <title>Document</title>
+    <title>BARBER</title>
 </head>
 <body>
 <!--Social-->
@@ -36,9 +36,9 @@
         <a href=""><img src="asset/Logo.png" id="logo"></a>
         <div class="navbar">
             <ul>
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Services</a>
+                <a href=""><i class="fa-solid fa-house"></i></a>
+                <a href="#location"><i class="fa-solid fa-location-dot"></i></a>
+                <a href="#about"><i class="fa-solid fa-address-card"></i></a>
             </ul>
         </div>
     </header>
@@ -59,12 +59,12 @@
     </div>
 </div>
 <div class="button">
-    <a href="">Service</a>
+    <a href="#service">Service</a>
 </div>
 
 <!--About-->
-<div class="abt">
-    <h2>About</h2>
+<div class="abt" id="about">
+    <h2>ABOUT</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in efficitur ex. Nullam pharetra dictum mi. Praesent eget metus sapien. 
         Vivamus lacinia mauris non turpis luctus, nec tincidunt velit eleifend. Vestibulum ullamcorper, tellus eu pharetra suscipit, 
         ante turpis auctor purus, vel rhoncus velit tortor et dolor. Morbi semper interdum pretium. Vestibulum lacinia pretium efficitur. 
@@ -72,5 +72,47 @@
         Mauris quis commodo ipsum. Curabitur nibh risus, laoreet ut dapibus sit amet, sollicitudin vel turpis. Suspendisse egestas pharetra ornare. Nunc ac arcu tristique, lobortis orci quis, bibendum felis. 
         Donec gravida neque eu finibus condimentum.</p>
 </div>
+<!--Services-->
+<section class="service" id="service">
+    <div class="container">
+        <h3>SERVICES</h3>
+        <div class="box">
+            <div class="col-4">
+                <div class="icon"><i class="fa-solid fa-scissors"></i></div>
+                <h4>HAIRCUT</h4>
+            </div>
+            <div class="col-4">
+                <div class="icon"><i class="fa-solid fa-bottle-droplet"></i></div>
+                <h4>COLORING</h4>
+            </div>
+            <div class="col-4">
+                <div class="icon"><i class="fa-solid fa-spray-can-sparkles"></i></div>
+                <h4>STYLING</h4>
+            </div>
+            <div class="col-4">
+                <div class="icon"><i class="fa-solid fa-shower"></i></div>
+                <h4>HAIR WASH</h4>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Location-->
+<section class="loc" id="location">
+    <div class="container">
+        <h3>LOCATION</h3>
+            <div class="map">
+                <center><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3927.2815833662366!2d123.6202825!3d-10.1577514!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c569cb07c5c9f13%3A0xd499d54bad302f6f!2sOYO%202814%20Debitos%20Hotel!5e0!3m2!1sen!2sid!4v1664887088580!5m2!1sen!2sid" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+            </div>
+    </div>
+</section>
+
+<!-- footer -->
+<footer>
+    <div class="container">
+        <small>Copyright &copy; 2020 -. All Rights Reserved To All The Property Owner.</small>
+    </div>
+</footer>
+
+
 </body>
 </html>
