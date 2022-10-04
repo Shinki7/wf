@@ -41,7 +41,7 @@ header img{
     width: 5%;
     height: 4%;
     float: left;
-    margin: 30px 45px;
+    margin: 30px 40px;
 }
 .navbar{
     float: right;
@@ -176,4 +176,34 @@ footer {
 	background-color: #333;
 	color: #fff;
 	text-align: center;
+}
+@media screen and (max-width: 768px){
+	.container {
+		width:90%;
+	}
+	header img {
+        position: relative;
+		justify-content: center;
+		float: none;
+        height: 10%;
+        width: 10%;
+	}
+	.navbar ul{
+        justify-items: center;
+        align-items: center;
+		justify-content: center;
+		float: none;
+	}
+	.box .col-4 {
+		width:100%;
+		float: none;
+		margin-bottom: 20px;
+	}
+    .map iframe{
+        width: 50%;
+        height: 50%;
+    }
+    .button a{
+        margin: -90px 50px;
+    }
 }
