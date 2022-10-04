@@ -187,15 +187,14 @@ footer {
 	header img {
         margin-left: 150px;
 		float: none;
-        height: 10%;
-        width: 10%;
+        height: 15%;
+        width: 15%;
 	}
 	.navbar ul{
-        display: inline-block;
+        font-size: 5px;
         justify-content: center;
         align-items: center;
 		float: none;
-        padding: 1px 1px;
 	}
 	.box .col-4 {
 		width:100%;
