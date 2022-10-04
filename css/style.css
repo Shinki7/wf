@@ -191,11 +191,14 @@ footer {
         width: 15%;
 	}
 	.navbar ul{
-        font-size: 5px;
         justify-content: center;
         align-items: center;
 		float: none;
+        margin-right: 13px;
 	}
+    .navbar ul a{
+        margin: 25px;
+    }
 	.box .col-4 {
 		width:100%;
 		float: none;
