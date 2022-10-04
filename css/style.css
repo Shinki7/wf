@@ -185,6 +185,7 @@ footer {
         align-items: center;
     }
 	header img {
+        margin-left: 150px;
 		float: none;
         height: 10%;
         width: 10%;
