@@ -185,18 +185,16 @@ footer {
         align-items: center;
     }
 	header img {
-        margin-left: 150px;
 		float: none;
-        height: 20%;
-        width: 20%;
+        height: 10%;
+        width: 10%;
 	}
 	.navbar ul{
-        margin-top:-51px;
-        margin-bottom: -90px;
-        margin-right: 45px;
-		justify-content: center;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
 		float: none;
-        padding: 10px 1px;
+        padding: 1px 1px;
 	}
 	.box .col-4 {
 		width:100%;
