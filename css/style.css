@@ -249,6 +249,16 @@ footer {
         width: 15%;
     }
     .navbar ul a{
-        margin-right: 22px;
+        margin-right: 39px;
+    }
+}
+@media screen and (max-width: 377px){
+    .navbar ul a{
+        margin-right: 33px;
+    }
+}
+@media screen and (max-width: 367px){
+    .navbar ul a{
+        margin-right: 28px;
     }
 }
