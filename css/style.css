@@ -177,6 +177,37 @@ footer {
 	color: #fff;
 	text-align: center;
 }
+.bg-loader {
+	background-color: #eee;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bg-loader .loader {
+	width:100px;
+	height: 100px;
+	border:3px solid #fff;
+	border-radius: 50%;
+	border-top-color: #148F77;
+	border-right-color: #148F77;
+	border-bottom-color: #148F77;
+	animation: puterin .8s linear infinite;
+}
+.label {
+	background-color: #148F77;
+	color: #fff;
+}
+@keyframes puterin {
+	100% {
+		transform: rotate(360deg);
+	}
+}
 @media screen and (max-width: 768px){
 	.container {
 		width:90%;
@@ -227,9 +258,6 @@ footer {
         margin-left: 5px;
         height: 10%;
         width: 10%;
-    }
-    .navbar ul a{
-
     }
 }
 @media screen and (max-width: 416px){
