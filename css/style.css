@@ -15,7 +15,6 @@ body{
     background-color: #333237;
 }
 .social a{
-    font-family: 'Public Sans';
     display: inline-block;
     color: #ffff;
     margin-right: 10px;
@@ -54,6 +53,7 @@ header img{
     font-family: inter;
     color: #000;
     margin: 30px;
+    transition: .5s;
 }
 .navbar ul a:hover{
     color: #01003F;
@@ -194,9 +194,9 @@ footer {
 	height: 100px;
 	border:3px solid #fff;
 	border-radius: 50%;
-	border-top-color: #148F77;
-	border-right-color: #148F77;
-	border-bottom-color: #148F77;
+	border-top-color: #01003F;
+	border-right-color: #01003F;
+	border-bottom-color: #01003F;
 	animation: puterin .8s linear infinite;
 }
 .label {
