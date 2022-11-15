@@ -37,23 +37,25 @@ header{
     justify-content: center;
 }
 header img{
-    width: 5%;
-    height: 4%;
+    width: 4%;
+    height: 1%;
     float: left;
-    margin: 30px 40px;
+    margin: 35px 40px;
+}
+.wrap{
+    text-align: center;
 }
 .navbar{
     float: right;
     padding: 30px 38px;
-    margin: 20px 0px;
+    margin: 25px 0px;
 }
 .navbar ul a{
     text-decoration: none;
     font-size: 20px;
     font-family: inter;
     color: #000;
-    margin: 20px;
-    transition: .5s;
+    margin: 10px;
 }
 .navbar ul a:hover{
     text-decoration: underline;
@@ -208,10 +210,11 @@ footer {
 }
 .btn a{
     text-decoration: none;
-    font-family: inter;
+    font-family: montserrat;
     color: #000;
-    background-color: rgba(251, 251, 251, .2);
-    padding: 20px 20px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    background-color: rgba(251, 251, 251, 0);
+    padding: 15px 10px;
     transition: 0.3s;
 }
 .btn a:hover{
