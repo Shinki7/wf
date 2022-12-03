@@ -45,21 +45,6 @@ header img{
 .wrap{
     text-align: center;
 }
-.navbar{
-    float: right;
-    padding: 30px 38px;
-    margin: 25px 0px;
-}
-.navbar ul a{
-    text-decoration: none;
-    font-size: 20px;
-    font-family: inter;
-    color: #000;
-    margin: 10px;
-}
-.navbar ul a:hover{
-    text-decoration: underline;
-}
 .banner{
     position: relative;
     height: 100vh;
@@ -92,18 +77,20 @@ header img{
 }
 .button a{
     position: absolute;
-    padding: 15px 50px;
-    margin: -130px 50px;
+    padding: 10px 45px;
+    margin: -200px 50px;
     z-index: 10;
-    border-radius: 30px;
-    background-color: #fff;
+    border-radius: 5px;
+    border: solid 1px rgb(0, 19, 59);
+    background-color: rgb(0, 19, 59);
     transition: .2s;
-    color: #000;
+    color: #fff;
     text-decoration: none;
     font-family: inter;
 }
 .button a:hover{
-    background-color: #01003F;
+    background-color: transparent;
+    border: solid 1px rgb(0, 19, 59);
     color: #fff;
 }
 .abt{
@@ -114,9 +101,11 @@ header img{
 }
 .abt h2{
     text-align: center;
+    color: #000;
     margin: 3px 5px;
     font-family: inter;
 }
+
 .abt p{
     margin: 30px 0px;
     text-align: center;
@@ -212,13 +201,15 @@ footer {
     text-decoration: none;
     font-family: montserrat;
     color: #000;
-    border: 1px solid rgba(0, 0, 0, .2);
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 3px;
     background-color: rgba(251, 251, 251, 0);
     padding: 15px 10px;
     transition: 0.3s;
 }
 .btn a:hover{
     background-color: rgba(0, 0, 0, .2);
+    border: none;
     color: #000;
 }
 .label {
@@ -226,89 +217,13 @@ footer {
 	color: #fff;
 }
 @keyframes puterin {
-	100% {
-		transform: rotate(360deg);
-	}
+    100% {
+        transform: rotate(360deg);
+    }
 }
-@media screen and (max-width: 768px){
-	.container {
-		width:90%;
-	}
-    header{
-        align-items: center;
-    }
-	header img {
-        margin-left: 50px;
-		float: none;
-        height: 8%;
-        width: 8%;
-	}
-	.navbar ul{
-        justify-content: center;
-        align-items: center;
-		float: none;
-        margin-right: 13px;
-	}
-    .navbar ul a{
-        margin: 25px;
-    }
-	.box .col-4 {
-		width:100%;
-		float: none;
-		margin-bottom: 20px;
-	}
+@media screen and (max-widht: 950px){
     .map iframe{
         width: 50%;
         height: 50%;
-    }
-    .button a{
-        margin: -90px 50px;
-    }
-}
-@media screen and (max-width: 950px) {
-    .map iframe{
-        width: 50%;
-        height: 50%;
-    }
-    header img{
-        height: 8%;
-        width: 8%;
-    }
-}
-@media screen and (max-width: 460px){
-    header img{
-        margin-left: 5px;
-        height: 10%;
-        width: 10%;
-    }
-}
-@media screen and (max-width: 416px){
-    header img{
-        margin-left: 160px;
-        height: 15%;
-        width: 15%;
-    }
-    .navbar ul a{
-        margin-right: 43px;
-    }
-}
-@media screen and (max-width: 400px){
-    header img{
-        margin-left: 160px;
-        height: 15%;
-        width: 15%;
-    }
-    .navbar ul a{
-        margin-right: 39px;
-    }
-}
-@media screen and (max-width: 377px){
-    .navbar ul a{
-        margin-right: 33px;
-    }
-}
-@media screen and (max-width: 367px){
-    .navbar ul a{
-        margin-right: 28px;
     }
 }

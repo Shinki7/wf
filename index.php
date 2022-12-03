@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <link href="css/bootstrap.css" rel="stylesheet">
     <style>
         ::-webkit-scrollbar{
             width: 5px;
@@ -39,37 +38,32 @@
 </div>
 
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#location">Location</a>
-              </li>
-            </ul>
-          </div>
+    <header>
+        <a href=""><img src="asset/Logo.png" id="logo"></a>
+        <div class="wrap">
+            <div class="navbar">
+                <ul>
+                    <a href="">Home</i></a>
+                    <a href="#location">Location</i></a>
+                    <a href="#about">About</i></a>
+                </ul>
+            </div>
         </div>
-      </nav>
-
+    </header>
 
 <!--Banner-->
 <div class="banner">
     <div class="text">
             <h1 class="title">
-                FADE CUT <br> BARBERSHOP
+                BARBER
             </h1>
             <p class="txt">
-                Finding a good barber is like finding a good lawyer, you have to go to the same people
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in efficitur ex. Nullam pharetra dictum mi. Praesent eget metus sapien. 
+                Vivamus lacinia mauris non turpis luctus, nec tincidunt velit eleifend. Vestibulum ullamcorper, tellus eu pharetra suscipit, ante turpis auctor purus, vel rhoncus velit tortor et dolor. 
+                Morbi semper interdum pretium. Vestibulum lacinia pretium efficitur. Curabitur suscipit condimentum feugiat. 
+                Vivamus aliquet orci tortor, in gravida libero consectetur eget.Aliquam non varius sapien, eget fringilla lectus. Vivamus feugiat ex eu elit faucibus placerat. 
+                Mauris quis commodo ipsum. Curabitur nibh risus, laoreet ut dapibus sit amet, sollicitudin vel turpis. Suspendisse egestas pharetra ornare. Nunc ac arcu tristique, lobortis orci quis, bibendum felis. 
+                Donec gravida neque eu finibus condimentum.
             </p>
     </div>
 </div>
@@ -79,16 +73,14 @@
 
 <!--About-->
 <div class="abt" id="about">
-    <h2>TENTANG FCB</h2>
-    <p>Rambut memang menjadi daya tarik dan sebagai identitas dari karakter seseorang. <br> 
-        Konsultasikan gaya rambutmu sekarang juga, <br> 
-        langsung saja ke Fade Cut BarberShop. <br></br>
-        Kami akan memberikan saran stayle rambut terbaik yang cocok untukmu dan yang kekinian banget, <br> 
-        dengan pelayanan terbaik dan juga kualitas hasil yang memuaskan. <br></br>
-
-    </p>
+    <h2>ABOUT</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in efficitur ex. Nullam pharetra dictum mi. Praesent eget metus sapien. 
+        Vivamus lacinia mauris non turpis luctus, nec tincidunt velit eleifend. Vestibulum ullamcorper, tellus eu pharetra suscipit, 
+        ante turpis auctor purus, vel rhoncus velit tortor et dolor. Morbi semper interdum pretium. Vestibulum lacinia pretium efficitur. 
+        Curabitur suscipit condimentum feugiat. Vivamus aliquet orci tortor, in gravida libero consectetur eget. Aliquam non varius sapien, eget fringilla lectus. Vivamus feugiat ex eu elit faucibus placerat. 
+        Mauris quis commodo ipsum. Curabitur nibh risus, laoreet ut dapibus sit amet, sollicitudin vel turpis. Suspendisse egestas pharetra ornare. Nunc ac arcu tristique, lobortis orci quis, bibendum felis. 
+        Donec gravida neque eu finibus condimentum.</p>
 </div>
-
 <!--Loader-->
 <div class="bg-loader">
     <div class="loader"></div>
@@ -141,6 +133,10 @@
 
 </body>
 <script src="js/script.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/popper.min.js"></script>
 </html>
+
+<?php
+
+
+
+?>
