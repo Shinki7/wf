@@ -1,0 +1,1 @@
+THIS PROJECT IS ABANDONED AND REMASTERED ON: https://github.com/Shinki7/Web
